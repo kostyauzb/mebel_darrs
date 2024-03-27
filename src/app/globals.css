@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body{
+    height: 100%;
+}
+.container{
+    width: 100%;
+    max-width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+@media only screen and (max-width: 375px){
+    .container{
+        max-width: 380px;
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+}
